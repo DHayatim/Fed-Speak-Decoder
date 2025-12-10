@@ -1,3 +1,5 @@
+Markdown
+
 # 🏛️ The Fed-Speak Decoder
 
 **Quantifying Central Bank Sentiment using NLP.**
@@ -18,16 +20,20 @@ In financial markets, the tone of the Federal Reserve (FOMC) dictates liquidity 
 
 ## 🚀 How to Run
 
-Copy and paste these commands in your terminal:
-
+### 1. Install dependencies
 ```bash
-# 1. Install dependencies
 pip install -r requirements.txt
+2. Run the Scraper
+To fetch the latest minutes:
 
-# 2. Run the Scraper (Fetch latest minutes)
+Bash
+
 python scraper.py
+3. Run the Analyzer
+To calculate sentiment score:
 
-# 3. Run the Analyzer (Calculate sentiment)
+Bash
+
 python analyzer.py
 📊 Methodology
 The algorithm filters "Stop Words" to isolate financial terminology. It then maps the remaining tokens against a weighted dictionary:
