@@ -18,22 +18,14 @@ In financial markets, the tone of the Federal Reserve (FOMC) dictates liquidity 
 
 ## 🚀 How to Run
 
-1. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-Run the Scraper (To fetch the latest minutes):
+### 1. Install dependencies
+```bash
+pip install -r requirements.txt
 
-Bash
-
+### 2. Run the Scraper
+```bash
 python scraper.py
-Run the Analyzer (To calculate sentiment score):
 
-Bash
-
+###3. Run the Analyzer
+```bash
 python analyzer.py
-📊 Methodology
-The algorithm filters "Stop Words" to isolate financial terminology. It then maps the remaining tokens against a weighted dictionary:
-
-Positive (+1): growth, strong, recovery...
-
-Negative (-1): inflation, risk, weak, decline...
