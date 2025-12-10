@@ -21,11 +21,7 @@ In financial markets, the tone of the Federal Reserve (FOMC) dictates liquidity 
 ### 1. Install dependencies
 ```bash
 pip install -r requirements.txt
-
 ### 2. Run the Scraper
+To fetch the latest minutes:
 ```bash
 python scraper.py
-
-###3. Run the Analyzer
-```bash
-python analyzer.py
