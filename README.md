@@ -17,6 +17,9 @@ In financial markets, the tone of the Federal Reserve (FOMC) dictates liquidity 
 - **Data Engineering:** Automated path handling and text cleaning
 
 ## 🚀 How to Run
-1. Install dependencies:
+
+1. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
+   python scraper.py
+   python analyzer.py
