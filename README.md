@@ -29,3 +29,14 @@ python scraper.py
 
 # 3. Run the Analyzer (Calculate sentiment)
 python analyzer.py
+📊 Methodology
+The algorithm filters "Stop Words" to isolate financial terminology. It then maps the remaining tokens against a weighted dictionary:
+
+Positive (+1): growth, strong, recovery...
+
+Negative (-1): inflation, risk, weak, decline...
+
+🔮 Next Steps
+Visualize sentiment evolution over time (Matplotlib).
+
+Correlate sentiment score with S&P 500 (SPY) daily returns.
